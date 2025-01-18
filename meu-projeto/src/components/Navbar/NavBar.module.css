@@ -1,0 +1,8 @@
+.containerNav{
+    display: flex;
+    gap: 20px;
+}
+
+.containerNav li{
+    list-style: none;
+}
