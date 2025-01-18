@@ -1,0 +1,10 @@
+.containerLogo{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 10px;
+}
+
+.containerLogo:hover {
+    text-decoration: none;
+}
