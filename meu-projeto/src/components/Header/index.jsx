@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 import styles from "./Header.module.css"
 
 import Logo from "../Logo/index"
@@ -8,6 +10,8 @@ const index = () => {
     <header className={styles.containerHeader}>
         <Logo/>
         <NavBar/>
+        <Link to="/contato">Contato</Link>
+        
     </header>
   )
 }
