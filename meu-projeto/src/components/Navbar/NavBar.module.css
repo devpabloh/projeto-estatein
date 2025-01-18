@@ -1,8 +1,5 @@
 .containerNav{
     display: flex;
-    font-size: var(--font-size-regular);
-    font-weight: var(--font-weight-medium);
-
 
     gap: 1.875rem;
     
