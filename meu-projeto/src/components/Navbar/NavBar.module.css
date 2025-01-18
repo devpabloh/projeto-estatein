@@ -1,6 +1,11 @@
 .containerNav{
     display: flex;
-    gap: 20px;
+    font-size: var(--font-size-regular);
+    font-weight: var(--font-weight-medium);
+
+
+    gap: 1.875rem;
+    
 }
 
 .containerNav li{
