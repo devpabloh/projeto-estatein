@@ -12,14 +12,14 @@ import Propriedades from './pages/Propriedades/Propriedades'
 import Servicos from './pages/Servicos/Servicos'
 
 /* Componentes */
-import NavBar from './components/Navbar/index'
+import Header from './components/Header'
 
 function App() {
 
   return (
     <>
       <BrowserRouter>
-        <NavBar/>
+        <Header/>
         <Routes>
           <Route path="/" element={<Inicio/>} />
           <Route path="/sobre" element={<Sobre/>} />
